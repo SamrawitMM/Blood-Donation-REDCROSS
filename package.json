@@ -1,0 +1,27 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha **/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "crypto-js": "^3.1.6",
+    "express": "^4.0.0",
+    "jsonwebtoken": "^7.1.9",
+    "lodash": "^4.17.11",
+    "mongodb": "^2.2.5",
+    "tap": "^12.1.1",
+    "validator": "^5.6.0"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.0.0",
+    "supertest": "^2.0.0"
+  }
+}
